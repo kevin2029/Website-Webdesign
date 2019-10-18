@@ -1,6 +1,5 @@
 body {
   margin:0;
-  font: 1em sans-serif;
 }
 main{
     margin-top: 20px;
@@ -14,9 +13,8 @@ main{
   background-image: url("../Images/giphy.gif");
   background-repeat: no-repeat;
   background-size: cover;
-  font-size: 30px;
   color: white;
-  height: 20%;
+  height: 600px;
   width: 100%;
 }
 
@@ -46,7 +44,6 @@ h5{
   background: gray;
 }
 .table {
-  font-size: 12px;
   border: 1px solid lightgray; 
 } 
 .table td {
@@ -55,13 +52,7 @@ h5{
   border: 1px solid lightgray;
 }
 
-.Title_Header{
-  font-size: 2.5cm;
-}
 
-.Title_text{
-  font-size: 0.6cm;
-}
 
 .Blok1_header {
   padding: 200px;
@@ -69,51 +60,35 @@ h5{
   background-image: url(../Images/frontpage_pic1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  font-size: 30px;
   color: white;
   margin-top: 1cm;
   margin-left: 10% ;
   margin-right: 10%;
+  height: 200px;
 
 }
 
 
-.Blok2_header{
-  
+.Blok2{
   text-align: center;
   background-image: url(../Images/frontpage_pic1.webp);
   background-repeat: no-repeat;
-  font-size: 30px;
   color: white;
-  margin-top: 2cm;
+  margin-top: 1cm;
   width: 500px;
-  height: 1000px;
-  float: left;
-  margin-left: 10%;
+  height: 500px;
+
   
 }
 
-.Blok3_header{
-   
-  text-align: center;
+.Blok2.rick{
+  margin-left: 5cm;
   background-image: url(../Images/frontpage_pic1.webp);
-  background-repeat: no-repeat;
-  font-size: 30px;
-  color: white;
-  margin-top: 2cm;
-  width: 500px;
-  height: 1000px;
-  float: right;
-  margin-right: 10%;
-}
 
-#wrap{
-  width: 485px;
 }
 
 .fa {
   padding: 20px;
-  font-size: 30px;
   width: 50px;
   text-align: center;
   text-decoration: none;
@@ -143,7 +118,6 @@ h5{
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-size:15px;
 	font-weight:bold;
 	padding:11px 23px;
 
