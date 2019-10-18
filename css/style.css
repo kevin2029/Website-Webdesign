@@ -1,0 +1,154 @@
+body {
+  margin:0;
+  font: 1em sans-serif;
+}
+main{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.header {
+  padding: 200px;
+  text-align: center;
+  background-image: url("../Images/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 30px;
+  color: white;
+  height: 20%;
+  width: 100%;
+}
+
+.header.Opleiding {
+  background-image: url("../Images/study.jpg");
+
+}
+.header.Contact {
+  background-image: url("../Images/contact.jpg");
+
+}
+.header.Kevin {
+  background-image: url("../Images/KevinLeerdoel.jpg");
+ 
+}
+.header.Rick {
+  background-image: url("../Images/RickLeerdoel.jpg");
+
+}
+
+
+
+h5{
+  font-weight: bold;
+}
+.blok {
+  background: gray;
+}
+.table {
+  font-size: 12px;
+  border: 1px solid lightgray; 
+} 
+.table td {
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid lightgray;
+}
+
+.Title_Header{
+  font-size: 2.5cm;
+}
+
+.Title_text{
+  font-size: 0.6cm;
+}
+
+.Blok1_header {
+  padding: 200px;
+  text-align: center;
+  background-image: url(../Images/frontpage_pic1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 30px;
+  color: white;
+  margin-top: 1cm;
+  margin-left: 10% ;
+  margin-right: 10%;
+
+}
+
+
+.Blok2_header{
+  
+  text-align: center;
+  background-image: url(../Images/frontpage_pic1.webp);
+  background-repeat: no-repeat;
+  font-size: 30px;
+  color: white;
+  margin-top: 2cm;
+  width: 500px;
+  height: 1000px;
+  float: left;
+  margin-left: 10%;
+  
+}
+
+.Blok3_header{
+   
+  text-align: center;
+  background-image: url(../Images/frontpage_pic1.webp);
+  background-repeat: no-repeat;
+  font-size: 30px;
+  color: white;
+  margin-top: 2cm;
+  width: 500px;
+  height: 1000px;
+  float: right;
+  margin-right: 10%;
+}
+
+#wrap{
+  width: 485px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fotoContact{
+  width: 350px;
+  
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  background-color: gray;
+  color: lightgray;
+  text-align: center;
+  top: 100%;
+}
+
+.button {
+	background-color:darkblue;
+	border-radius:3px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+
+}
+.button:hover {
+	background-color:lightskyblue;
+}
+
